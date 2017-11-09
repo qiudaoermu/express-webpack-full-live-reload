@@ -1,0 +1,330 @@
+.firstNewsContent{
+    width: 700px;
+
+
+}
+.footerNewsContent{
+    width: 1000px;
+    margin: 0 auto;
+    float: left;
+}
+.firstNewsContent h1{
+    font-weight: bold;
+    display: inline-block;
+}
+.firstNewsContent ul{
+    margin-top: 30px;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 20px;
+}
+.firstNewsContent li{
+    list-style: square;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+
+}
+.firstNewsContent li a{
+    font-size: 15px;
+}
+.newsImg{
+    width:700px;
+    height: 150px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.newsImg span{
+    display: inline-block;
+    width:120px;
+    height: 100px;
+
+}
+.newsImg span img{
+    width: inherit;
+    height: inherit;
+}
+.newsImg li{
+
+}
+.newsImg>div{
+    margin-top: 20px;
+    float:left
+}
+.newsImg>div h2{
+    display: inline-block;
+    margin-left: 10px;
+
+
+}
+.shareButton{
+    width: 19px;
+    height: 15px;
+    margin-top: 37px;
+    margin-left: 517px;
+    margin-right: 10px;
+    background: url(img/icons.png) no-repeat 0 -33px;
+    position: relative;
+
+}
+.shareButton .sharBoard{
+    position: absolute;
+    width:100px;
+    height:80px ;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #d5d5d5;
+    background: #fff;
+
+    display: none;
+
+}
+.shareButton .sharBoard-active{
+    position: absolute;
+    width:100px;
+    height:80px ;
+    left: 0px;
+    top: 20px;
+    background: #fff;
+    border: 1px solid #cdcdcd;
+    display: block;
+    z-index: 999;
+}
+.sharBoard-active li{
+    width: 100%;
+    margin-left: 10px;
+    height: 20px;
+
+}
+.sharBoard-active a{
+    background: url(img/icons.png) no-repeat;
+    width:20px;
+    height: 20px;
+    display:inline-block;
+    float: left;
+}
+.sharBoard-active span{
+    display: inline-block;
+    width: 75px;
+    height: 20px;
+}
+.sharBoard-active a.s_qzone{
+
+}
+.newsImgparent{
+    float: left;
+}
+.newsImgRignt{
+    float: left;
+    width: 300px;
+    height: 320px;
+}
+.newsImgRignt{
+    float: left;
+    width: 287px;
+    height: 320px;
+    margin-left: 13px;
+    background:#f5f5f5
+}
+.etitle{height: 60px}
+.etitle h3{border-left: 3px solid #c8321d;height: 30px;float: left}
+.etitle h3 a{width: 123px;height: 30px;background: url(img/jrhtLogo.png) no-repeat;display: inline-block}
+.etitle span{
+    height: 30px;
+    width:128px;
+    float: left;
+    font-size:14px;
+    margin-top: 17px;
+
+
+
+}
+.con{width: 300px;margin-left: 12px}
+.con ul li{
+    margin-top: 10px;
+}
+.con a{font-size: 16px;
+    color: #000000;font-size: 14px;margin-top: 10px}
+.pic{    float: left;
+    /* width: 100px; */
+    height: 50px;}
+.pic img{    width: 120px;
+    height: 80px;
+    vertical-align: bottom;}
+.text{    float: left;
+    width: 131px;
+    margin-left: 24px;
+    font-size: 15px;}
+.jiantou{
+    margin-top: -9px;
+}
+
+
+
+
+.navSUl{
+    width:700px;
+    height:50px;
+
+    background:#efefef;
+    position: relative;
+}
+.navSUl>li{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 85px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.navSUl li .nav_Content{
+    position: absolute;
+    left:0px;
+    top:50px;
+    width: 700px;
+    height: 800px;
+    border: 1px solid #ddd;
+    z-index:999;
+    display: none;
+
+}
+.navSUl li.activeNavItem{
+    color: #c12219;
+    border-top:3px solid #c8321d;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    background: #fff;
+    height: 47px;
+    cursor: pointer;
+}
+.nav_ContentActive{
+    display: block;
+    position: absolute;
+    left:0px;
+    top:50px;
+    width: 700px;
+    height: 800px;
+
+    z-index:999;
+
+}
+.RightCarouselContainer{
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin-top: 40px;
+}
+.RightCarousel{
+     width:285px;
+    float: right;
+    height: 220px;
+    border: 1px solid #ddd;
+    position: relative;
+    background: #f9f9f9;
+}
+.turn{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top:150px;
+
+    opacity: .5;
+    z-index: 10;
+}
+.turn span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: #ddd;
+    cursor: pointer;
+
+}
+.turn span.turnLeft{
+    float: left;
+}
+.turn span.turnRigt{
+    float: right;
+}
+.RightCarousel li{
+    height:inherit;
+    width: 285px;
+    position: absolute;
+    left: 0px;
+    top:50px;
+    display: none;
+
+}
+.RightCarousel li.ImgShowActive{
+    display: block;
+}
+.RightCarousel li img{
+    width: 285px;
+}
+.CurseturnPoint{
+
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    bottom: 60px;
+
+    left:50%;
+    margin-left:-40px;
+
+}
+.CurseturnPoint li{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 8px;
+    background: #ddd;
+    cursor:pointer;
+}
+.CurseturnPoint li.activePointItem{
+    background: #c8321d;
+    cursor:pointer;
+}
+.titleImg{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-left: 5px solid #c8321d;
+
+}
+.titleImg img{
+    margin-left: 10px;
+}
+.imgsCon{width: 700px;height:236px;border-bottom: 1px solid #ddd;}
+.imgsCon ul div{
+    width: 30%;
+    height: 160px;
+    float: left;
+    margin-right: 22px;
+    overflow: hidden;
+    /* margin-left: 20px; */
+
+
+}
+.imgsCon ul div img{
+    width: 100%;
+    height:160px;
+
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: transform .2s ease-out;
+
+}
+.imgsCon ul div img:hover{
+
+    transform: scale(1.1);
+
+}
+h2{
+    color:#000
+}
+.imgArrTitle{
+    color:#000;
+    text-align: left;
+}

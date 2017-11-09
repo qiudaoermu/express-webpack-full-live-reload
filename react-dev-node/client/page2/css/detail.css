@@ -1,0 +1,203 @@
+#detailMain{
+    background-color: #d5d5d5;
+}
+.DetailleftComponent{
+    width: 200px;
+    float: left;
+}
+.DetailCenterComponent{
+    width: 690px;
+    float: left;
+}
+.DetailRightComponent{
+    width: 300px;
+    float: left;
+}
+.newsListDetailSon{
+    padding: 14px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: text-bottom;
+}
+.hotnewsTitle{
+    font-size: 20px;
+    padding: 14px 0;
+    color: #24b8f2;
+    font-weight: 300;
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.newsListDetailSon a{
+    font-size: 14px;
+}
+a:hover{
+    color:#24b8f2;
+    cursor: pointer;
+}
+.DetailCenterComponent{
+    padding: 0 20px;
+}
+.centerText{
+    line-height: 2;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.rightTitle{
+    font-size: 20px;
+    text-indent: 10px;
+    border-left: 4px solid #24b8f2 ;
+    font-weight: 300;
+    width: 200px;
+
+
+    margin-top: 10px;
+}
+.rigntUi{
+    margin-top: 20px;
+}
+.rigntUi li{
+    height: 80px;
+    cursor: pointer;
+
+}
+.rigntUi div{
+    float: left;
+}
+.rigntUi div img{
+    width: 120px;
+    height: 70px;
+}
+.textRight{
+    width: 145px;
+    margin-left: 13px;
+    font-size: 14px;
+}
+
+.comeFrom{
+    font-size: 16px;
+}
+.comeFrom span{
+    margin-right: 10px;
+    font-size:16px ;
+}
+.shareTitle {
+    width: 58px;
+    padding: 6px 20px;
+}
+.a_share>span{
+    border-radius: 4px;
+    border: 1px solid #c7c7c7;
+    color: #000;}
+ .a_share {
+    width: 70px;
+    margin-left: 15px;
+    position: relative;
+    float: right;
+    display: inline;
+     text-align: center;
+     height: 24px;
+     line-height: 24px;
+ }
+.shareTitle{
+    width: 58px;
+    padding: 3px 5px;
+    display: inline-block;
+}
+.shareTitle i {
+    width: 10px;
+    height: 12px;
+    float: left;
+    display: inline;
+    margin-top: 3px;
+    background: url(img/icon_share.png) no-repeat scroll;
+}
+.a_commentNum {
+    float: right;
+    display: inline;
+    padding: 3px 1px;
+    border: 1px solid #ddd;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.qq_toolWrap .a_share, .qq_toolWrap .a_commentNum, .qq_toolWrap .a_ilike, .qq_bar .a_share, .qq_bar .a_commentNum, .qq_bar .a_ilike {
+    text-align: center;
+    height: 24px;
+    line-height: 24px;}
+.a_commentNum a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    outline: 0;
+}
+.a_commentNum a span{
+    color:#000
+}
+.a_commentNum a em {
+    color: #379be9;
+    margin-right: 5px;
+    display: inline-block;
+}
+.a_ilike {
+    text-align: center;
+    height: 24px;
+    width: 57px;
+    display: inline-block;
+    padding: 0px 4px;
+    line-height: 24px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: right;
+}
+.a_ilike>a {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 3px;
+    color:#000
+}
+.a_ilike>i {
+    content: '';
+    width: 16px;
+    height: 15px;
+    float: left;
+    display: inline;
+    margin: 4px 6px 0 0;
+    background: url(img/icon_ilike.png) no-repeat scroll;
+}
+.shareBd {
+    /* display: none; */
+    font-size: 12px;
+    width: 70px;
+    background-color: #379be9;
+    border-radius: 4px;
+
+
+    position: relative;
+}
+.shareBd li{
+    padding: 3px 3px;
+}
+.shareBd li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.shareBtn16 li {color: #fff;cursor: pointer}
+.activeLi{
+    background: #1669AB;
+}
+.ewmBox{
+    width: 118px;
+    height: 118px;
+    border: 1px solid #efefef;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 70px;
+    top: -23px;
+}
+.ewmBox img{    margin-top: 20px;}
+.shareBoardhide{
+    display: none;
+}
+.ewmBoxhdie{display: none}
